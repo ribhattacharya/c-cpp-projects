@@ -2,7 +2,7 @@
 Coursera [Coding for Everyone: C and C++ Specialization](https://www.coursera.org/specializations/coding-for-everyone?) projects.
 
 ## Probabilities of poker hands using Monte Carlo method
-[File: card_shuffle.c](card_shuffle.c)
+[File: card_shuffle.c](/C%20projects/card_shuffle.c)
 
 Shuffle a deck of 52 cards _NCALLS=100,000,000_ times, and then pick out a 7 card hand. Compute the probabilities of a pattern appearing over all the trials (Monte Carlo method). Verify using combinatorial mathematics.
 
@@ -30,7 +30,7 @@ Shuffle a deck of 52 cards _NCALLS=100,000,000_ times, and then pick out a 7 car
     No pair        : 21027399        (0.210274)
 
 ## Remove duplicates from a doubly linked list
-[File: remove_duplicates_LL.c](remove_duplicates_LL.c)
+[File: remove_duplicates_LL.c](/C%20projects/remove_duplicates_LL.c)
 
 Create a doubly linked list using random elements. Use bubble sort to sort the list and remove duplicate elements.
 
@@ -68,7 +68,7 @@ Create a doubly linked list using random elements. Use bubble sort to sort the l
 Sorted and unique!
 
 ## Sort a linked list
-[File: sort_LL.c](sort_LL.c)
+[File: sort_LL.c](/C%20projects/sort_LL.c)
 
 Create a linked list using random elements. Use bubble sort to sort the list.
 
