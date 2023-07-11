@@ -65,57 +65,17 @@ Create a doubly linked list using random elements. Use bubble sort to sort the l
       41      42      43      44      45      46      47      48      49
 
 
-Sorted and unique!
+    Sorted and unique!
 
 ## Sort a linked list
 [File: sort_LL.c](/C%20projects/sort_LL.c)
 
 Create a linked list using random elements. Use bubble sort to sort the list.
 
-    Before sorting,
-        210      82     656     994     306
-        644     618     313     995     819
-        82     103     181     612     327
-        352     804       7     468     782
-        302     374     580     627      26
-        430     308     661     399     906
-        208     446     651     720     851
-        413     490      70     980     545
-        930     832     427     760     807
-        666     945     324     576     533
-        994     865     770      96     478
-        462     437     923     396     451
-        906     732     609      36     866
-        222    1000     887     747     995
-        37     835     263     302     530
-        484     833     893     128     276
-        80     539     232     812     450
-        711     540     686     179     515
-        350     318     284     818     750
-        978     304    1000      80     845
+## Convert array to binary tree
+[File: array_2_BT.c](/C%20projects/array_2_BT.c)
 
+Read a file of intergers and store it as a binary tree. Print the inorder traversal of the tree.
 
-    After sorting,
-        7      26      36      37      70
-        80      80      82      82      96
-        103     128     179     181     208
-        210     222     232     263     276
-        284     302     302     304     306
-        308     313     318     324     327
-        350     352     374     396     399
-        413     427     430     437     446
-        450     451     462     468     478
-        484     490     515     530     533
-        539     540     545     576     580
-        609     612     618     627     644
-        651     656     661     666     686
-        711     720     732     747     750
-        760     770     782     804     807
-        812     818     819     832     833
-        835     845     851     865     866
-        887     893     906     906     923
-        930     945     978     980     994
-        994     995     995    1000    1000
-
-
-    Sorted!
+    Input array:            90 34 67 21 33 71 
+    Inorder traversal:      21 34 33 90 71 67 
