@@ -83,7 +83,7 @@ Read a file of intergers and store it as a binary tree. Print the inorder traver
 ## Shortest path using Dijkstra's algorithm
 [File: dijkstra.cpp](/C++%20projects/Shortest%20path%20(dijkstra)/dijkstra.cpp)
 
-Create a random graph from given parameters, and use dijkstra's algorithm to compute average of all shortest paths.
+Create a random graph from given parameters, and use Dijkstra's algorithm to compute average of all shortest paths.
 
     Initialized graph with
     -----------------------------------
@@ -147,3 +147,44 @@ Create a random graph from given parameters, and use dijkstra's algorithm to com
     dist(1  -> 49) = 7         :  1 -> 33 -> 49
 
     Path found from 1 to 3: Yes. Average distance between two nodes is 6.4898.
+
+## Minimum spanning tree using Prim's algorithm
+[File: MST.cpp](/C++%20projects/Minimum%20Spanning%20Tree/MST.cpp)
+
+Create a random graph/read graph from a file, and use Prim's algorithm to compute the minimum spanning tree and the corressponding path length. To pass a custom graph, use the following in the terminal after compiling.
+
+    ./a.out "file_name.txt"
+
+To create a random graph given parameters, uncomment line 48
+    
+    Graph graph(50, 0.2, 1, 10, false);     // Create random graph
+
+and comment line 49
+
+    Graph graph(file_name, false);          // Read graph
+
+For the file `input.txt`, we have,
+
+    Node expanded:  0 with cost:  0
+    Node expanded:  2 with cost:  2
+    Node expanded:  9 with cost:  1
+    Node expanded: 13 with cost:  3
+    Node expanded: 12 with cost:  3
+    Node expanded: 17 with cost:  1
+    Node expanded: 11 with cost:  1
+    Node expanded: 14 with cost:  1
+    Node expanded: 18 with cost:  1
+    Node expanded:  5 with cost:  1
+    Node expanded:  6 with cost:  1
+    Node expanded:  3 with cost:  1
+    Node expanded:  1 with cost:  1
+    Node expanded: 16 with cost:  2
+    Node expanded: 10 with cost:  3
+    Node expanded: 15 with cost:  2
+    Node expanded: 19 with cost:  2
+    Node expanded:  7 with cost:  2
+    Node expanded:  4 with cost:  1
+    Node expanded:  8 with cost:  1
+
+
+    Minimum Spanned Tree Cost: 30
