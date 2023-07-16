@@ -153,7 +153,7 @@ Create a random graph from given parameters, and use Dijkstra's algorithm to com
 
 Create a random graph/read graph from a file, and use Prim's algorithm to compute the minimum spanning tree and the corressponding path length. To pass a custom graph, use the following in the terminal after compiling.
 
-    ./a.out "file_name.txt"
+    ./a.out file_name.txt
 
 To create a random graph given parameters, uncomment line 48
     
